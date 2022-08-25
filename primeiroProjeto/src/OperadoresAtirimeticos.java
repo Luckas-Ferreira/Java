@@ -6,6 +6,9 @@ public class OperadoresAtirimeticos {
         *float m = (n1 + n2) / 2;
         *System.out.format("A media foi de %.1f", m);
         */
-        
+        int valor1 = 6;
+        int lorem = valor1++;
+        System.out.println(lorem);
+        System.out.println(valor1);
     }
 }
