@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EstruturaCondicional",
+            "request": "launch",
+            "mainClass": "EstruturaCondicional",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
             "name": "Launch OperadorLogico",
             "request": "launch",
             "mainClass": "OperadorLogico",
