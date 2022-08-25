@@ -10,5 +10,8 @@ public class OperadoresAtirimeticos {
         int lorem = valor1++;
         System.out.println(lorem);
         System.out.println(valor1);
+        float potencia = (float) Math.pow(5, 2);
+        System.out.println(potencia);
+
     }
 }
