@@ -22,11 +22,20 @@ public class EstruturaRepeticao {
         System.out.printf("A soma de todos os valores foi: %d", s);
         teclado.close();
         */
+        /*
         for (byte cc = 0; cc < 3; cc++) {
             System.out.printf("Cambalhota - %d \n", cc);
         }
         for (byte cac = 15; cac >= 5; cac -= 2) {
             System.out.println(cac);
         }
+        */
+        byte i, j;
+        for (i = 1; i < 3; i++){
+            for (j = 0; j <= 2; j += 2) {
+                System.out.printf("O valor de I é: %d \n O valor de J é: %d \n", i, j);
+            }
+        }
     }
+
 }
