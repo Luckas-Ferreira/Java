@@ -36,7 +36,7 @@ public class EstruturaCondicional {
         }
         System.out.println("ELEIÇÕES - 2022");
         System.out.printf("Para essa eleição, seu status é: %s", voto + "\n");
-        System.out.printf("Você têm %i anos", idade);
+        System.out.printf("Você têm %d anos", idade);
         teclado.close();
     }
 }
