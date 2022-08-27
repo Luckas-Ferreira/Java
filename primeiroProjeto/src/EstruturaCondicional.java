@@ -19,17 +19,17 @@ public class EstruturaCondicional {
 
         //Exemplo 2
         Scanner teclado = new Scanner(System.in);
-        int nasc, idade;
-        String verificacao;
-        System.out.print("Em que ano nasceu? ");
-        nasc = teclado.nextInt();  
-        teclado.close();      
+        System.out.print("Em que ano você nasceu? ");
+        int idade, nasc;
+        String atual;
+        nasc = teclado.nextInt();
         idade = 2022 - nasc;
         if (idade >= 18) {
-            verificacao = "Já é de Maior";
+            atual = "De maior";
         } else {
-            verificacao = "Ainda é de menor";
+            atual = "De menor";
         }
-        System.out.println(verificacao);
-    }   
+        System.out.printf("Esse(a) joven é %s", atual);
+        teclado.close();
+    }
 }
