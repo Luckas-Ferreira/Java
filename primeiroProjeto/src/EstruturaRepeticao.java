@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 public class EstruturaRepeticao {
     public static void main(String[] args) {
         /*
@@ -8,6 +8,7 @@ public class EstruturaRepeticao {
             cc++;
         }
         */
+        /*
         Scanner teclado = new Scanner(System.in);
         byte n, s = 0;
         String resp;
@@ -18,7 +19,14 @@ public class EstruturaRepeticao {
             System.out.println("Quer continuar? [S/N]: ");
             resp = teclado.next();
         } while (resp.equals("S"));
-        System.out.printf("A soma de todos oos valores foi: %d", s);
+        System.out.printf("A soma de todos os valores foi: %d", s);
         teclado.close();
+        */
+        for (byte cc = 0; cc < 3; cc++) {
+            System.out.printf("Cambalhota - %d \n", cc);
+        }
+        for (byte cac = 15; cac >= 5; cac -= 2) {
+            System.out.println(cac);
+        }
     }
 }
