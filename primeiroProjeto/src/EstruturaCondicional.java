@@ -21,15 +21,23 @@ public class EstruturaCondicional {
         Scanner teclado = new Scanner(System.in);
         System.out.print("Em que ano você nasceu? ");
         int idade, nasc;
-        String atual;
+        String voto;
         nasc = teclado.nextInt();
         idade = 2022 - nasc;
-        if (idade >= 18) {
-            atual = "De maior";
-        } else {
-            atual = "De menor";
+        if (idade < 16) {
+            voto = "Não vota";
         }
-        System.out.printf("Esse(a) joven é %s", atual);
+        else {
+            if ((idade >= 16 && idade < 18) || (idade > 70)) {
+                voto = "Opcional";
+            } else {
+                voto = "Obrigatorio";
+            }
+        }
+        System.out.println("ELEIÇÕES - 2022");
+        System.out.printf("Para essa eleição, seu status é: %s", voto + "\n");
+        System.out.printf("Você têm %i anos", idade);
         teclado.close();
     }
 }
+
