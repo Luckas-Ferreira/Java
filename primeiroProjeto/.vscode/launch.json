@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch metodos",
+            "request": "launch",
+            "mainClass": "metodos",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
             "name": "Launch ExercidioVetores",
             "request": "launch",
             "mainClass": "ExercidioVetores",

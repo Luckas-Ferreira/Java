@@ -16,11 +16,8 @@ public class ExercidioVetores {
         Arrays.sort(num);
         System.out.printf(" " + num);
 
-        System.out.println("\n BUSCA BINARIA"); 
-        Arrays bus = Arrays.binarySearch(num, 7);
-        System.out.println(bus);
-            
-        }
+        System.out.println("\n BUSCA BINARIA");          
+        
         
     }
 }
