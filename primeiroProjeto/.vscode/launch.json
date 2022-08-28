@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Vetores",
+            "request": "launch",
+            "mainClass": "Vetores",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
             "name": "Launch EstruturaRepeticao",
             "request": "launch",
             "mainClass": "EstruturaRepeticao",
