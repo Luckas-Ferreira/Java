@@ -1,5 +1,10 @@
 public class metodos {
-    public static void main(String[] args) {
-        System.out.println("lorem");
+    static void soma (int a, int b) {
+        int s = a + b;
+        System.out.printf("A soma é igual a %d", s);
     }
+    public static void main(String[] args) {
+        soma ( 5, 2);
+    }   
+
 }
