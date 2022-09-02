@@ -1,10 +1,11 @@
 public class metodos {
-    static void soma (int a, int b) {
+    static int soma (int a, int b) {
         int s = a + b;
-        System.out.printf("A soma é igual a %d", s);
+        return s;
+        
     }
     public static void main(String[] args) {
-        soma ( 5, 2);
-    }   
-
+        int sm = soma (2, 5);
+        System.out.printf("A soma é igual a %d ", sm);
+    }
 }
