@@ -1,0 +1,98 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch metodos",
+            "request": "launch",
+            "mainClass": "metodos",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercidioVetores",
+            "request": "launch",
+            "mainClass": "ExercidioVetores",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vetores",
+            "request": "launch",
+            "mainClass": "Vetores",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstruturaRepeticao",
+            "request": "launch",
+            "mainClass": "EstruturaRepeticao",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo",
+            "request": "launch",
+            "mainClass": "Exemplo",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch EstruturaCondicional",
+            "request": "launch",
+            "mainClass": "EstruturaCondicional",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorLogico",
+            "request": "launch",
+            "mainClass": "OperadorLogico",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorTernario",
+            "request": "launch",
+            "mainClass": "OperadorTernario",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresAtirimeticos",
+            "request": "launch",
+            "mainClass": "OperadoresAtirimeticos",
+            "projectName": "primeiroProjeto_e3178659"
+        },
+        {
+            "type": "java",
+            "name": "Launch tiposPrimitivos",
+            "request": "launch",
+            "mainClass": "tiposPrimitivos",
+            "projectName": "primeiroProjeto_8e172a03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Data",
+            "request": "launch",
+            "mainClass": "Data",
+            "projectName": "primeiroProjeto_8e172a03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "primeiroProjeto_8e172a03"
+        }
+    ]
+}
