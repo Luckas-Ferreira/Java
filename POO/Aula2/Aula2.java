@@ -1,3 +1,4 @@
+package Aula2;
 public class Aula2 {
     public static void main(String[] args) {
         Caneta c1 = new Caneta();
@@ -9,6 +10,5 @@ public class Aula2 {
         c1.status();
         c1.destampar();
         c1.rabiscar();
-        
     }
 }

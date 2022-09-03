@@ -4,6 +4,14 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch ExercicioAula2",
+            "request": "launch",
+            "mainClass": "Aula2.ExercicioAula2",
+            "projectName": "Java_1e9ae73f"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
