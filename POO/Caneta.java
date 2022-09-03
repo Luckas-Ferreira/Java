@@ -1,4 +1,3 @@
-package Java.POO;
 public class Caneta {
     String modelo;
     String cor;
@@ -7,20 +6,19 @@ public class Caneta {
     boolean tampada;
 
     void status() {
-        System.out.printf("Está caneta é %s", this.cor);
-    }
-    void rabiscar() {
-        if (tampada == true) {
-            System.out.println("ERRO");
-        } else {
-            System.out.println("Rabisco");
-        }
+        System.out.println("Está caneta é " + this.cor);
     }
     void tampar() {
         tampada = true;
     }
-
     void destampar() {
         tampada = false;
+    }
+    void rabiscar() {
+        if (tampada == true) {
+            System.out.println("ERRO!");
+        } else {
+            System.out.println("Rabisco");
+        }
     }
 }
