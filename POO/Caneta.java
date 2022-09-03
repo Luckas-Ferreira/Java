@@ -6,7 +6,7 @@ public class Caneta {
     boolean tampada;
 
     void status() {
-        System.out.println("Está caneta é " + this.cor);
+        System.out.println("Está caneta é " + this.cor + " e tem uma ponta de " + this.ponta);
     }
     void tampar() {
         tampada = true;
