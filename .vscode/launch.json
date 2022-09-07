@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExercicioAula3",
+            "request": "launch",
+            "mainClass": "Aula3.src.ExercicioAula3",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
             "name": "Launch Aula3",
             "request": "launch",
             "mainClass": "Aula3.src.Aula3",
