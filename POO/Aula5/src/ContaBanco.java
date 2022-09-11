@@ -1,4 +1,4 @@
-package POO.Aula5;
+package Aula5.src;
 
 public class ContaBanco {
     public    int     numConta;
@@ -7,6 +7,13 @@ public class ContaBanco {
     private   float   saldo;
     private   boolean status;
 
+    public void verInformações () {
+        System.out.println("número da Conta: " + this.numConta);
+        System.out.println("Tipo   da conda: " + this.tipo);
+        System.out.println("Dono   da conta: " + this.dono);
+        System.out.println("Saldo  da conta: " + this.saldo);
+        System.out.println("Status da conta: " + this.status);
+    }
     public int getNumConta() {
         return numConta;
     }

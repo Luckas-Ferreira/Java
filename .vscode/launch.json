@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Pessoa",
+            "request": "launch",
+            "mainClass": "Aula5.src.Pessoa",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula2",
+            "request": "launch",
+            "mainClass": "Aula2.Aula2",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pessoa",
+            "request": "launch",
+            "mainClass": "POO.Aula5.Pessoa",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",
