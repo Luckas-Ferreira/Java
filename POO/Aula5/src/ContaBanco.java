@@ -43,19 +43,19 @@ public class ContaBanco {
     }
 
     public ContaBanco       () {
-        this.status = false;
-        this.saldo  = 0f;
+        setStatus(false);
+        setSaldo(0f);
     }
 
     public void abrirConta  (String tipo) {
-        this.tipo = tipo;
-        if (this.tipo == "CC") {
-            this.status = true;
-            this.saldo  = 50;
+        setTipo(tipo);
+        if (tipo == "CC") {
+            setStatus(true);
+            setSaldo(50f);
         }
-        else if (this.tipo == "CP") {
-            this.status = true;
-            this.saldo  = 150;
+        else if (tipo == "CP") {
+            setStatus(true);
+            setSaldo(150f);
         }
         else {
             System.out.println("Tipo de conta INVALIDO!");
@@ -65,21 +65,22 @@ public class ContaBanco {
     public void fecharConta () { 
         if (this.saldo == 0) {
             System.out.println("Conta Fechada");
+            setStatus(false);
         }
         else {
             System.out.println("IMPOSSIVEL FECHAR A CONTA!");
             if (this.saldo < 0) {
-                System.out.printf("Tem R$%d.2f de saldo negativo");
+                System.out.printf("Tem R$%.2f de saldo negativo \n", this.saldo);
             }
             if (this.saldo > 0) {
-                System.out.printf("Tem R$%d.2f de saldo positivo");
+                System.out.printf("Tem R$%.2f de saldo positivo \n", this.saldo);
             }
         }
     }
 
     public void depositar   (float saldo) {
         if (this.status == true) {
-            this.saldo = saldo;
+            setSaldo(getSaldo() + saldo);
         }
         else {
             System.out.println("Você não tem conta aberta");
@@ -88,7 +89,8 @@ public class ContaBanco {
     public void sacar       (float sacar) {
         if (this.status == true && this.saldo > 0) {
             float valorAtual = this.saldo - sacar;
-            if (valorAtual > 0) {
+            if (valorAtual >= 0) {
+                this.saldo = valorAtual;
                 System.out.println("Saque realizado com sucesso!");
             }
             else {
