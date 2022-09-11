@@ -1,23 +1,54 @@
 package POO.Aula5;
 
 public class ContaBanco {
-    private int     numConta;
-    private String  tipo;
-    private String  dono;
-    private float   saldo;
-    private boolean status;
+    public    int     numConta;
+    protected String  tipo;
+    private   String  dono;
+    private   float   saldo;
+    private   boolean status;
 
-    public ContaBanco       () {
-        
+    public int getNumConta() {
+        return numConta;
+    }
+    public String  getTipo() {
+        return tipo;
+    }
+    public String  getDono() {
+        return dono;
+    }
+    public float  getSaldo() {
+        return saldo;
+    }
+    public void setNumConta(int numConta) {
+        this.numConta = numConta;
+    }
+    public void setTipo     (String tipo) {
+        this.tipo     = tipo;
+    }
+    public void setDono     (String dono) {
+        this.dono     = dono;
+    }
+    public void setSaldo    (float saldo) {
+        this.saldo    = saldo;
+    }
+    public void setStatus(boolean status) {
+        this.status   = status;
     }
 
-    public void abrirConta  () {
-        this.status = true;
+    public ContaBanco       () {
+        this.status = false;
+        this.saldo  = 0f;
+    }
+
+    public void abrirConta  (String tipo) {
+        this.tipo = tipo;
         if (this.tipo == "CC") {
-            this.saldo = 50;
+            this.status = true;
+            this.saldo  = 50;
         }
         else if (this.tipo == "CP") {
-            this.saldo = 150;
+            this.status = true;
+            this.saldo  = 150;
         }
         else {
             System.out.println("Tipo de conta INVALIDO!");
@@ -47,12 +78,26 @@ public class ContaBanco {
             System.out.println("Você não tem conta aberta");
         }
     }
-    public void sacar       (float saldo) {
-        if (this.status == true) {
-            
+    public void sacar       (float sacar) {
+        if (this.status == true && this.saldo > 0) {
+            float valorAtual = this.saldo - sacar;
+            if (valorAtual > 0) {
+                System.out.println("Saque realizado com sucesso!");
+            }
+            else {
+                System.out.println("Saldo insuficiente");
+            }
+        }
+        else {
+            System.out.println("Saldo insuficiente");
         }
     }
     public void pagarMensal () {
-
+        if (this.tipo == "CC") {
+            this.saldo -= 12f;
+        }
+        else if (this.tipo == "CP") {
+            this.saldo -= 20f;
+        }
     }
 }
