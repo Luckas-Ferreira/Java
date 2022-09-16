@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Aula6",
+            "request": "launch",
+            "mainClass": "Aula6",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_b1b9975f"
+        },
+        {
+            "type": "java",
             "name": "Launch Pessoa",
             "request": "launch",
             "mainClass": "Aula5.src.Pessoa",
