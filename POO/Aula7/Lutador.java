@@ -1,4 +1,4 @@
-package POO.Aula7;
+package Aula7;
 
 public class Lutador implements Ações{
     private String name;
@@ -68,7 +68,14 @@ public class Lutador implements Ações{
 
     @Override
     public void presentation() {
-        System.out.println("teste");
+        System.out.println("On this side we have " + getName());
+        System.out.println("Nationality: "         + getNationality());
+        System.out.println("Age: "                 + getAge());
+        System.out.println("Height: "              + getHeight());
+        System.out.println("Weight: "              + getWeight());
+        System.out.println("Victorys: "            + getVictory());
+        System.out.println("defeats: "             + getDefeat());
+        System.out.println("draws: "               + getDraws());
     }
     @Override
     public void status() {

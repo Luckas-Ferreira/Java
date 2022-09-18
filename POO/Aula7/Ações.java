@@ -1,4 +1,4 @@
-package POO.Aula7;
+package Aula7;
 
 public interface Ações {
     public abstract void presentation();
