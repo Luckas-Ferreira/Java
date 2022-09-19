@@ -9,5 +9,9 @@ public class Aula7 {
         lutador[3] = new Lutador("Dead Code", "Autralia", 28, 1.93f, 81.6f, 13, 0, 2);
         lutador[4] = new Lutador("UFOCobol", "Brasil", 37, 1.70f, 119.3f, 5, 4, 3);
         lutador[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
+        
+        Fight UEC01 = new Fight();
+        UEC01.brandFight(lutador[0], lutador[0]);
+        UEC01.fight();
     }
 }
