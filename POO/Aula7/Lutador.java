@@ -123,15 +123,15 @@ public class Lutador {
     }
 
     public void winFight() {
-        setVictory(getVictory() + 1);
+        this.setVictory(this.getVictory() + 1);
     }
 
     public void lossFight() {
-        setDefeat(getDefeat() + 1);
+        this.setDefeat(this.getDefeat() + 1);
     }
 
     public void drawFight() {
-        setDraws(getDraws() + 1);
+        this.setDraws(this.getDraws() + 1);
     }
 
 }
