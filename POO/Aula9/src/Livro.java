@@ -6,13 +6,17 @@ public class Livro implements Publicacao {
     private boolean open;
     private Pessoa  reader;
 
-    public Livro (String title, String author, int totalPages, int currentPage, boolean open, Pessoa reader){
+    public String details() {
+        // TODO Auto-generated method stub
+        return "Livro{" + "title=" + title + ", author=" + author + ", totalPages" + totalPages + ", open=" + open + "reader" + reader + "}";
+    }
+    
+    public Livro (String title, String author, boolean open, Pessoa reader){
         this.title = title;
         this.author = author;
-        this.totalPages = totalPages;
-        this.currentPage = currentPage;
-        this.open = open;
+        this.open = false;
         this.reader = reader;
+        this.currentPage = 0;
     }
     public String getTitle(){
         return this.title;
@@ -50,8 +54,32 @@ public class Livro implements Publicacao {
     public void setReader(Pessoa reader){
         this.reader = reader;
     }
-    
-    public void details(){
+
+    @Override
+    public void open() {
+        this.open = true;
+    }
+
+    @Override
+    public void close() {
+        this.open = false;
+    }
+
+    @Override
+    public void leafThrough(int p) {
+        this.currentPage = p;
+    }
+
+    @Override
+    public void forwardPages() {
+        this.currentPage++;
         
     }
+
+    @Override
+    public void backPages() {
+        this.currentPage--;
+        
+    }
+
 }
