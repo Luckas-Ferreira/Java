@@ -2,9 +2,18 @@ public class Livro implements Publicacao {
     private String  title;
     private String  author;
     private int     totalPages;
+    private int     currentPage;
     private boolean open;
     private Pessoa  reader;
 
+    public Livro (String title, String author, int totalPages, int currentPage, boolean open, Pessoa reader){
+        this.title = title;
+        this.author = author;
+        this.totalPages = totalPages;
+        this.currentPage = currentPage;
+        this.open = open;
+        this.reader = reader;
+    }
     public String getTitle(){
         return this.title;
     }
@@ -22,6 +31,12 @@ public class Livro implements Publicacao {
     }
     public void setTotalPages(int totalPages){
         this.totalPages = totalPages;
+    }
+    public int getCurrentPage(){
+        return this.currentPage;
+    }
+    public void setCurrentPage(int currentPage){
+        this.currentPage = currentPage;
     }
     public boolean getOpen(){
         return this.open;
