@@ -11,7 +11,7 @@ public class Aula7 {
         lutador[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
         
         Fight UEC01 = new Fight();
-        UEC01.brandFight(lutador[0], lutador[0]);
+        UEC01.brandFight(lutador[1], lutador[0]);
         UEC01.fight();
     }
 }

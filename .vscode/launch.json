@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Aula7",
             "request": "launch",
+            "mainClass": "Aula7.Aula7",
+            "projectName": "Java_c47af731"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula7",
+            "request": "launch",
             "mainClass": "POO.Aula7.Aula7",
             "projectName": "Java_c47af731"
         },
