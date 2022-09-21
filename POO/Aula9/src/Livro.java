@@ -1,4 +1,4 @@
-public class Livro {
+public class Livro implements Publicacao {
     private String  title;
     private String  author;
     private int     totalPages;
@@ -11,7 +11,7 @@ public class Livro {
     public void setTitle(String title){
         this.title = title;
     }
-    public String getOuthor(){
+    public String getAuthor(){
         return this.author;
     }
     public void setAuthor(String author){
