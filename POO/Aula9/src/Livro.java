@@ -8,13 +8,14 @@ public class Livro implements Publicacao {
 
     public String details() {
         // TODO Auto-generated method stub
-        return "Livro{" + "title=" + title + ", author=" + author + ", totalPages" + totalPages + ", open=" + open + "reader" + reader + "}";
+        return "Livro{" + "\ntitle=" + title + ", \nauthor=" + author + ", \ntotalPages" + totalPages + ", \nopen=" + open + "\nreader" + reader.getName() + "}";
     }
     
-    public Livro (String title, String author, boolean open, Pessoa reader){
+    public Livro (String title, String author, int totalPages, Pessoa reader){
         this.title = title;
         this.author = author;
         this.open = false;
+        this.totalPages = totalPages;
         this.reader = reader;
         this.currentPage = 0;
     }
