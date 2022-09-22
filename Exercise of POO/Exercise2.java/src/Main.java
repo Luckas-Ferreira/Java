@@ -13,5 +13,6 @@ public class Main {
         System.out.printf("\nPERIMETER: %.2f", R1.perimeter());
         System.out.printf("\nDIAGONAL: %.2f \n", R1.diagonal());
         keyboard.close();
+        
     }
 }
