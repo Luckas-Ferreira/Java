@@ -1,4 +1,4 @@
-public class Functionary {
+public class Functionary extends Person {
     private String sector;
     private boolean working;
 
