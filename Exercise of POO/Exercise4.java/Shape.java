@@ -1,4 +1,5 @@
 public abstract class Shape {
-    public double area;
-
+    public double area(){
+        return 0;
+    }
 }
