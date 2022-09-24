@@ -1,5 +1,13 @@
 public abstract class Shape {
-    public double area(){
-        return 0;
+  
+    /*public Color color;
+        
+    public Shape(Color color) {
+       this.color = color;
     }
-}
+    */
+    
+    public double area(){
+      return -1;
+    }
+  }

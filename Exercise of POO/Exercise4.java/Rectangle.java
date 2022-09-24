@@ -1,6 +1,11 @@
 public class Rectangle extends Shape{
     private double width;
     private double height;
+    
+    public Rectangle(double width, double heighe){
+        this.width = width;
+        this.height = heighe;
+    }
     @Override
     public double area() {
         return this.getHeight() * this.getWidth();
