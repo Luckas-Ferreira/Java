@@ -3,7 +3,7 @@ public class Student extends Person{
     private String curse;
 
     public void cancelEnrollment() {
-        
+        System.out.println("Matricula será cancelada");
     }
 
     public int getEnrollment(){
