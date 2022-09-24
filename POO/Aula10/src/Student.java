@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Person{
     private int    enrollment;
     private String curse;
 
