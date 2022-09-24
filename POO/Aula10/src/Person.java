@@ -4,7 +4,7 @@ public class Person {
     private int    age;
 
     public void birthday(){
-
+        this.setAge(this.age++);
     }
     public String getName(){
         return this.name;

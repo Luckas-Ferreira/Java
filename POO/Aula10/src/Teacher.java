@@ -2,8 +2,8 @@ public class Teacher extends Person{
     private String specialty;
     private float  salary;
 
-    public void receiveRaise(){
-
+    public void receiveRaise(float receive){
+        this.setSalary(this.getSalary() + receive);
     }
     public String getSpecialty(){
         return this.specialty;
