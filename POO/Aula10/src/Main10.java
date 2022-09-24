@@ -11,6 +11,7 @@ public class Main10 {
         p4.setName("Fabiana");
 
         System.out.println(p1.getName());
-
+        
+        p4.changeWork();
     }
 }
