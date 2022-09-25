@@ -19,7 +19,7 @@ public class MainPrincipal {
             
             if (option.equals("c")){
                 Circle c = new Circle(color, 3);
-                System.out.println(c.area());
+                c.area();
             }
             shapes.add(a);
             teclado.close();  
