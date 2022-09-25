@@ -2,9 +2,15 @@ public class Rectangle extends Shape{
     private double width;
     private double height;
     
-    public Rectangle(double width, double heighe){
+    /**
+     * @param color
+     * @param width
+     * @param height
+     */
+    public Rectangle(Color color, double width, double height){
+        super(color);
         this.width = width;
-        this.height = heighe;
+        this.height = height;
     }
     @Override
     public double area() {
