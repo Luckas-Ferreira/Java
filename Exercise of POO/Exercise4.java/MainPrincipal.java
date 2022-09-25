@@ -9,17 +9,20 @@ public class MainPrincipal {
             System.out.print("Rectangle or Circle (r/c)?");
             String option = teclado.next();
 
+            Color color = Color.valueOf("RED");
             if (option.equals("r")){
                 System.out.println("width and height ");
-                //double width = sc.nextDouble();
-                //double height = sc.nextDouble();
+                
+                Rectangle a = new Rectangle(color, 4,5);
+                System.out.println(a.area());
 
-                Color color = Color.valueOf("RED");
-                Rectangle a = new Rectangle(color, 4,3);
             
-                shapes.add(a);
-            teclado.close();
-            System.out.println(a.area());
+            if (option.equals("c")){
+                Circle c = new Circle(color, 3);
+                System.out.println(c.area());
+            }
+            shapes.add(a);
+            teclado.close();  
         }
     }
 }
