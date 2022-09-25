@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class MainPrincipal {
         
-
         public static void main(String[] args) {
             ArrayList<Shape> shapes = new   ArrayList<>();
             Scanner teclado = new Scanner(System.in);
