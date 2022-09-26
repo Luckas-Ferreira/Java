@@ -1,4 +1,4 @@
-public class Person implements IEntityValidation {
+public class Person implements Validation {
 
     public String toString(){
         return "Type: Person";
