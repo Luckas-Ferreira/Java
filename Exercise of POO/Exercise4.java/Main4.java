@@ -12,15 +12,14 @@ public class Main4 {
             if (option.equals("r")){
                 System.out.println("width and height ");
                 
-                Rectangle4 a = new Rectangle4(color, 4,5);
-                System.out.println(a.area());
+                Rectangle4 r = new Rectangle4(color, 4,5);
+                System.out.println(r.area());
 
-            
             if (option.equals("c")){
                 Circle c = new Circle(color, 3);
-                c.area();
+                System.out.println(c.area());
             }
-            shapes.add(a);
+            shapes.add(r);
             teclado.close();  
         }
     }

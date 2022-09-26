@@ -16,11 +16,8 @@ public class Circle extends Shape{
         this.radius = radius;
     }
 
-    @Override
     public double area() {
-        double values = Math.PI * Math.pow(getRadius(), 2);
-        System.out.println(values);
-        return 0;
+        return Math.PI * Math.pow(getRadius(), 2);
     }
 
 }
