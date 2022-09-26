@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class MainPrincipal {
+public class Main4 {
         
         public static void main(String[] args) {
             ArrayList<Shape> shapes = new   ArrayList<>();
@@ -12,7 +12,7 @@ public class MainPrincipal {
             if (option.equals("r")){
                 System.out.println("width and height ");
                 
-                Rectangle a = new Rectangle(color, 4,5);
+                Rectangle4 a = new Rectangle4(color, 4,5);
                 System.out.println(a.area());
 
             

@@ -1,4 +1,4 @@
-public class Rectangle extends Shape{
+public class Rectangle4 extends Shape{
     private double width;
     private double height;
     
@@ -7,7 +7,7 @@ public class Rectangle extends Shape{
      * @param width
      * @param height
      */
-    public Rectangle(Color color, double width, double height){
+    public Rectangle4(Color color, double width, double height){
         super(color);
         this.width = width;
         this.height = height;

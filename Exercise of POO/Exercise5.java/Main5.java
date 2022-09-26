@@ -2,7 +2,7 @@ import java.util.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-public class Questao5 {
+public class Main5 {
     public static void main(String[] args) throws ParseException {
         Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

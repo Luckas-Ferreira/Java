@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle2 {
     private double width;
     private double height;
 
@@ -19,7 +19,7 @@ public class Rectangle {
         return this.getWidth() * this.getHeight();
     }
     public double perimeter(){
-        return (this.getWidth() * 2) + (this.getHeight() * 2);
+        return (this.getHeight() * 2);
     }
     public double diagonal(){
         return Math.sqrt((Math.pow(this.getWidth(), 2)) + (Math.pow(this.getHeight(), 2)));

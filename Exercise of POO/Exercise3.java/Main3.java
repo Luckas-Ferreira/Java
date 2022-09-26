@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main1 {
+public class Main3 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         Employee p1 = new Employee();
