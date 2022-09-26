@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Questao5",
+            "request": "launch",
+            "mainClass": "Questao5",
+            "projectName": "Java_c47af731"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainPrincipal",
+            "request": "launch",
+            "mainClass": "MainPrincipal",
+            "projectName": "Java_c47af731"
+        },
+        {
+            "type": "java",
             "name": "Launch Main10",
             "request": "launch",
             "mainClass": "Main10",
