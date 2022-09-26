@@ -13,7 +13,7 @@ public class PersonLegal extends Person {
         this.cnpj=cnpj;
     }
     public String toString() {
-        System.out.println("Validando CNPJ");
+        System.out.println("Validating CNPJ");
         return String.format("{Legal}, CNPJ: %s", this.cnpj);
       }
     

@@ -4,18 +4,12 @@ public class PersonIndividual extends Person{
     public PersonIndividual(String cpf) {
         this.cpf = cpf;
       }
-
     public String getCpf() {
         return cpf;
     }
-
-   
-
-    public String toString() {
     
-      
-      System.out.println("Validando CPF");
-      
+    public String toString() {
+      System.out.println("Validating CPF");
         return String.format("{Individual} CPF: %s", this.cpf);
       }
     
