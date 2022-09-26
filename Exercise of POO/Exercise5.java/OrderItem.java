@@ -8,28 +8,29 @@ public class OrderItem {
         this.price = productPrice;
         this.product = product;
     }
-    
     public int getQuantity() {
         return quantity;
     }
-
     public double subTotal() {
         return getQuantity() * price;
     }
-
     public String toString() {
         return String.format("%s, %s, Quantity: %s, Subtotal: $%s\n", product.getName(), product.getPrice(), getQuantity(),
                 subTotal());
     }
-
     public double getPrice() {
         return price;
     }
-
-
     public Product getProduct() {
         return product;
     }
-
-    
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }
