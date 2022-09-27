@@ -1,12 +1,11 @@
-package Q8;
+public class gradeStudent {
+    public double values;
+    public String subjectName;
 
-public class Nota {
-    public double valor;
-    public String nomeDoAssunto;
 
-    public Nota(double valor, String nomeDoAssunto) {
-        this.valor = valor;
-        this.nomeDoAssunto = nomeDoAssunto;
+    public gradeStudent(double values, String subjectName) {
+        this.values = values;
+        this.subjectName = subjectName;
 
         if (!IsNotasValid()) {
             System.out.println("Nota invalida");
@@ -19,14 +18,14 @@ public class Nota {
     }
 
     public boolean IsNotasValid(){
-        return valor >= 0 && valor <= 10;
+        return values >= 0 && values <= 10;
     }
     public boolean IsNomeDoAssuntoValid(){
-        return nomeDoAssunto.length() != 0;
+        return subjectName.length() != 0;
     }
 
     @Override
     public String toString() {
-        return String.format("%s: %f ",nomeDoAssunto, valor);
+        return String.format("%s: %f ",subjectName, values);
     }
 }
