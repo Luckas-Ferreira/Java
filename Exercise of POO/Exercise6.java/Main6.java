@@ -4,7 +4,7 @@ public class Main6 {
         PersonLegal legal1 = new PersonLegal("781.284.721");
 
         PersonIndividual individual2 = new PersonIndividual("567.098.87");
-        PersonLegal legal2 = new PersonLegal("792.341.456");
+        PersonLegal legal2 = new PersonLegal("792.341.456-52");
 
         System.out.println(individual1);
         System.out.println(legal1);
