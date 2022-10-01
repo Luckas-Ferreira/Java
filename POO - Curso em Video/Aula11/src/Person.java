@@ -1,4 +1,4 @@
-package Aula11;
+package Aula11.src;
 
 public class Person {
     private String name;
