@@ -4,6 +4,7 @@ public class Person {
     private String name;
     private String sex;
     private int    age;
+    public Object receiveRaise;
     
     public int birthday(){
         return this.age++;
