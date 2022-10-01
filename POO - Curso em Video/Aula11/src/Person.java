@@ -1,9 +1,9 @@
 package Aula11.src;
 
 public abstract class Person {
-    private String name;
-    private String sex;
-    private int    age;
+    protected String name;
+    protected String sex;
+    protected int    age;
     public Object receiveRaise;
     
     public int birthday(){
