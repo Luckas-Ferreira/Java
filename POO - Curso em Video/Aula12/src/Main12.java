@@ -1,9 +1,9 @@
 public class Main12 {
     public static void main(String[] args) {
         Mammal  m = new Mammal();
-        Reptile r = new Reptile();
-        Fish    f = new Fish();
-        Ave     a = new Ave();
+        Kangaroo k = new Kangaroo();
+        Dog      d = new Dog();
+
 
         m.setWeight(85.3f);
         m.setAge(2);
@@ -12,18 +12,18 @@ public class Main12 {
         m.feed();
         m.makeNoise();
         System.out.println("");
-        r.setWeight(0.35f);
-        r.setAge(1);
-        r.setMembers(0);
-        r.move();
-        r.feed();
-        r.makeNoise();  
+        k.setWeight(85.3f);
+        k.setAge(2);
+        k.setMembers(4);
+        k.move();
+        k.feed();
+        k.makeNoise();
         System.out.println("");
-        f.setWeight(0.89f);
-        f.setAge(2);
-        f.setMembers(2);
-        f.move();
-        f.feed();
-        f.makeNoise(); 
+        d.setWeight(85.3f);
+        d.setAge(2);
+        d.setMembers(4);
+        d.move();
+        d.feed();
+        d.makeNoise();
     }
 }
