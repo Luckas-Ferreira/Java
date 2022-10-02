@@ -1,11 +1,10 @@
 package Aula13;
 
 public class Mammal extends Animal{
+    protected String skinColo;
 
     @Override
     public void makeNoise() {
-        // TODO Auto-generated method stub
-        
+        System.out.println("Som de mamífero");
     }
-    
 }
