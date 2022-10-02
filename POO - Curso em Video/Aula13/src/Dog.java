@@ -33,6 +33,8 @@ public class Dog extends Wolf{
         if (this.age < 5){
             if (this.weight < 10){
                 System.out.println("Abanar");
+            }else{
+                System.out.println("Latir");
             }
         }else{
             if (this.weight < 10){
