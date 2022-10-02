@@ -27,17 +27,19 @@ public class Dog extends Wolf{
             System.out.println("Abanar");
         }else{
             System.out.println("Rosnar e Latir");
+            this.makeNoise();
         }
     }
     public void toReact(int age, float weight){
-        if (this.age < 5){
-            if (this.weight < 10){
+        if (age < 5){
+            if (weight < 10){
                 System.out.println("Abanar");
             }else{
                 System.out.println("Latir");
+                this.makeNoise();
             }
         }else{
-            if (this.weight < 10){
+            if (weight < 10){
                 System.out.println("rosnar");
             }else{
                 System.out.println("Ignorar");
