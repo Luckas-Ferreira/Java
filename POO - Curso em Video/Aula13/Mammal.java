@@ -1,9 +1,11 @@
 package Aula13;
 
-public abstract class Mammal {
-    protected float weight;
-    protected int   age;
-    protected int   members;
+public class Mammal extends Animal{
 
-    public abstract void makeNoise();
+    @Override
+    public void makeNoise() {
+        // TODO Auto-generated method stub
+        
+    }
+    
 }
