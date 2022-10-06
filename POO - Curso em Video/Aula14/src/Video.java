@@ -1,5 +1,3 @@
-package Aula14.src;
-
 public class Video implements ActionVideo{
     private String  title;
     private float   avaluation;
