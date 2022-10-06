@@ -72,14 +72,12 @@ public class Student {
         // nota semestral agora representa a nota final
         return semesterNote;
     }
-
     @Override
     public String toString() {
         String formattedNote = "";
         for (gradeStudent employ : employ) {
             formattedNote += employ + "\n";
         }
-
         return String.format(
                 "Matrícula: %s\nFull name: %s\nFormatted Note: %s\nSemester note: %s\nFinal note: %s\n",
                 enrollment, fullName,
