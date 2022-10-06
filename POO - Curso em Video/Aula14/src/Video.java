@@ -61,5 +61,10 @@ public class Video implements ActionVideo{
     public void setPlaying(boolean playing) {
         this.playing = playing;
     }
+    @Override
+    public String toString() {
+        return "Video [title=" + title + ", avaluation=" + avaluation + ", views=" + views + ", likes=" + likes
+                + ", playing=" + playing + "]";
+    }
     
 }
