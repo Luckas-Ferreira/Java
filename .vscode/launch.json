@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Pote",
+            "request": "launch",
+            "mainClass": "Pote",
+            "projectName": "Java_c47af731"
+        },
+        {
+            "type": "java",
             "name": "Launch Main13",
             "request": "launch",
             "mainClass": "Main13",
