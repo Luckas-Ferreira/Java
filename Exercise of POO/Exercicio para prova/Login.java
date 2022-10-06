@@ -16,5 +16,4 @@ public class Login implements Verification {
     public void setPassword(String password) {
         this.password = password;
     }
-    
 }
