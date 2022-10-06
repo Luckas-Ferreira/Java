@@ -1,5 +1,3 @@
-package Aula13.src;
-
 public class Dog extends Wolf{
     @Override
     public void makeNoise() {

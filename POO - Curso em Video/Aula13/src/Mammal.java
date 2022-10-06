@@ -1,5 +1,3 @@
-package Aula13.src;
-
 public class Mammal extends Animal{
     protected String skinColo;
 

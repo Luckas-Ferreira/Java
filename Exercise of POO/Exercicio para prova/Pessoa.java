@@ -1,6 +1,8 @@
-package Exercise of POO.Exercicio para prova;
-
 public abstract class Pessoa {
-    Private String nome;
-    Private int    idade;
+    protected String nome;
+    protected int    idade;
+
+    public abstract void teste(){
+        
+    }
 }
