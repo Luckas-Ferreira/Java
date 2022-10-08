@@ -9,7 +9,7 @@ public class ContaEspecial extends ContaCorrente{
     @Override
     public boolean sacar(float valor) {
         if (valor <= this.getLimite()){
-            this.setSaldo(this.getSaldo() - valor);
+            this.setSaldo(this.saldo - valor);
             return super.sacar(this.getSaldo());
         }
         return false;
