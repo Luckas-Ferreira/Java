@@ -22,7 +22,7 @@ public class ContaCorrente extends Cliente{
         return false;
     }
 
-    
+
     public ContaCorrente(String nome, int agencia, int contaComDigito) {
         super(nome, agencia, contaComDigito);
     }
@@ -38,7 +38,7 @@ public class ContaCorrente extends Cliente{
 
     @Override
     public String toString() {
-        return "Conta Corrente\nNome do Cliente: " + this.getNome() + "\nSaldo: " + saldo;
+        return "Nome do Cliente: " + this.getNome() + "\nSaldo: " + saldo;
     }
     
 }
