@@ -2,19 +2,19 @@ package Questão3;
 
 public class APP{
     private String usuario;
-    private String login;
+    private String senha;
 
-    public APP(String uauario, String login){
+    public APP(String uauario, String senha){
         this.usuario = uauario;
-        this.login = login;
+        this.senha = senha;
 
     }
     public String getLogin() {
-        return login;
+        return senha;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setLogin(String senha) {
+        this.senha = senha;
     }
     public String getUsuario() {
         return usuario;
