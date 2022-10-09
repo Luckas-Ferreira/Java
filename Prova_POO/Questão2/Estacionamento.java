@@ -1,6 +1,6 @@
 package Questão2;
 
-public class Estacionamento {
+public abstract class Estacionamento {
     private String carro;
     private int capacidadePessoas;
     private int quantidadePessoas;
@@ -10,6 +10,10 @@ public class Estacionamento {
         this.capacidadePessoas = capacidadePessoas;
         if (quantidadePessoas <= this.getCapacidadePessoas()){
             this.quantidadePessoas = quantidadePessoas;
+        }else{
+            this.quantidadePessoas = this.getCapacidadePessoas();
+            System.out.printf("Quantidade maxima de pessoas exedida. O carro tem %d lugares.\n", this.getCapacidadePessoas());
+            System.out.printf("Foram adicionadas apenas %d pessoas no carro %S \n", this.getCapacidadePessoas(), this.getCarro());
         }
     }
 
@@ -39,7 +43,7 @@ public class Estacionamento {
 
     @Override
     public String toString() {
-        return "Carro: " + carro + ", Capacidade de Pessoas: " + capacidadePessoas + ", Quantidade de Pessoas="
+        return "Carro: " + carro + ", Capacidade de Pessoas: " + capacidadePessoas + ", Quantidade de Pessoas: "
                 + quantidadePessoas;
     }
 }
