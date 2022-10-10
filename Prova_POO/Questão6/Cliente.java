@@ -2,6 +2,7 @@ public class Cliente {
     private String nome;
     private int agencia;
     private int contaComDigito;
+    
     public Cliente(String nome, int agencia, int contaComDigito){
         this.nome = nome;
         this.agencia = agencia;
