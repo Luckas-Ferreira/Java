@@ -1,6 +1,9 @@
-public class chá extends Bebida {
+public class Chá extends Bebida{
+
     @Override
     protected void preparar() {
-        System.out.printls("Preparendo o chá")
+        System.out.println("Preparando o chá");
+        
     }
+    
 }

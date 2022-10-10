@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainTeste",
+            "request": "launch",
+            "mainClass": "MainTeste",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
             "name": "Launch Pote",
             "request": "launch",
             "mainClass": "Pote",
