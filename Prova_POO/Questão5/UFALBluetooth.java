@@ -1,4 +1,4 @@
-package Prova_POO.Questão5;
+package Questão5;
 
 public abstract class UFALBluetooth {
     public UFALBluetooth(){
