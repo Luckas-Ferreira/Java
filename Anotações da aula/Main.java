@@ -1,4 +1,3 @@
-package patterns.singleston;
 public class Main {
     public static void main(String[] args) {
         BancoDeDados banco1 = new BancoDeDados.getInstance();

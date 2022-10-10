@@ -1,5 +1,3 @@
-pachage pattern.singleton;
-
 public class BancoDeDados {
     static private BancoDeDados instance;
     private boolean connected;
