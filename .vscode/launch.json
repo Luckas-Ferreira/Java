@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main2",
+            "request": "launch",
+            "mainClass": "Questão2.Main2",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Questão2.Main",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Prova_POO.Questão5.Main",

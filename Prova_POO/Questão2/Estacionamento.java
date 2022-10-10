@@ -1,6 +1,6 @@
 package Questão2;
 
-public abstract class Estacionamento {
+public class Estacionamento {
     private String carro;
     private int capacidadePessoas;
     private int quantidadePessoas;
