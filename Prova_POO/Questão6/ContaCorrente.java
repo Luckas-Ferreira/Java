@@ -1,14 +1,18 @@
-public class ContaCorrente extends Cliente{
+public class ContaCorrente{
     protected float saldo;
-
+    
+    Cliente cliente = new Cliente();
+    
     public void Contal(){
 
     }
 
-    public void Conta (int agencia, int contaComDigito){
-        this.setAgencia(agencia);
-        this.setContaComDigito(contaComDigito);
+    public ContaCorrente(String nome, int agencia, int contaComDigito) {
+        cliente.agencia = agencia;
+        cliente.nome = nome;
+        cliente.contaComDigito = contaComDigito;
     }
+
     public void depositar(float valor){
         this.setSaldo(valor);;
     }
@@ -22,11 +26,6 @@ public class ContaCorrente extends Cliente{
         return false;
     }
 
-
-    public ContaCorrente(String nome, int agencia, int contaComDigito) {
-        super(nome, agencia, contaComDigito);
-    }
-
     public float getSaldo() {
         return saldo;
     }
@@ -38,7 +37,7 @@ public class ContaCorrente extends Cliente{
 
     @Override
     public String toString() {
-        return "Nome do Cliente: " + this.getNome() + "\nSaldo: " + saldo;
+        return "Nome do Cliente: " + cliente.getNome() + "\nSaldo: " + saldo;
     }
     
 }

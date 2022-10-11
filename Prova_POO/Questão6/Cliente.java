@@ -1,13 +1,8 @@
 public class Cliente {
-    private String nome;
-    private int agencia;
-    private int contaComDigito;
+    protected String nome;
+    protected int agencia;
+    protected int contaComDigito;
     
-    public Cliente(String nome, int agencia, int contaComDigito){
-        this.nome = nome;
-        this.agencia = agencia;
-        this.contaComDigito = contaComDigito;
-    }
 
     @Override
     public String toString() {
