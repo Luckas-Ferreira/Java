@@ -2,7 +2,7 @@ public class ContaCorrente{
     protected float saldo;
     
     Cliente cliente = new Cliente();
-    
+
     public void Contal(){
 
     }
@@ -40,4 +40,10 @@ public class ContaCorrente{
         return "Nome do Cliente: " + cliente.getNome() + "\nSaldo: " + saldo;
     }
     
+    public void transferir(float transferir){
+        float resultado = this.saldo - transferir;
+        if(resultado > 0){
+            this.setSaldo(resultado);
+        }
+    }
 }
