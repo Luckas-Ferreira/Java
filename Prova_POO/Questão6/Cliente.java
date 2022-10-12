@@ -1,14 +1,10 @@
 public class Cliente {
+    //Atributos para usar nas contas Corrente/Especial
     protected String nome;
     protected int agencia;
     protected int contaComDigito;
     
-
-    @Override
-    public String toString() {
-        return "Nome do Cliente: " + nome;
-    }
-
+    //Getters and Setters dos atributos
     public String getNome() {
         return nome;
     }
