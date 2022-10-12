@@ -1,5 +1,6 @@
 package Questão4;
 
 public abstract class Metodo_de_Pagamento {
-    public abstract void pagar();
+    //Criação do método abstrato e não desenvolvido "pagar".
+    public abstract void pagar(); //Será desenvolvido nas formas de pagamento.
 }
