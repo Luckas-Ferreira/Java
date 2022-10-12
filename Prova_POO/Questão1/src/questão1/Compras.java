@@ -48,8 +48,8 @@ public class Compras {
 			case 5:
 				System.out.println("Volte sempre!");
 				System.exit(0); // para o programa 
-			// caso o usuário digite um opção que não elencada	
-			default: 
+				
+			default: // caso o usuário digite um opção que não foi enumerada
 				System.out.println("Opção inválida");
 				menu();
 				break;
