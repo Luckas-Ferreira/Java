@@ -83,11 +83,12 @@ public class Compras {
 	}
 	private static void comprarProdutos() {
 		if(itens.size() > 0) { // se a lista não estiver vazia 
-			System.out.println("ID do produto\n");
 			
 			System.out.println("----Produtos Disponíveis----");
 			for(Produto p: itens) { // print de todos os itens da lista
 				System.out.println(p + "\n");
+				
+			System.out.println("ID do produto\n:");
 			}
 			
 			int id = Integer.parseInt(input.next()); // pegar o valor digitado
