@@ -97,11 +97,12 @@ public class Compras {
 			for(Produto p: itens) {
 				if(p.getId() == id) {
 					int quantidade = 0;
-					try {
+					// try/catch são blocos para tratar exceções que o programador não tem como prever que irão acontecer
+					try { 
 						quantidade = carrinho.get(p);
 						// checa se o produto está no carrinho,incrementa quantidade
 						carrinho.put(p, quantidade +1);
-					}catch(NullPointerException e) {
+					}catch(NullPointerException e) { //  indica que a aplicação tentou usar uma referência a um objeto que não foi ainda definida;
 						// se o protudo for o primeiro item no carrinho;
 						carrinho.put(p, 1);
 					}
