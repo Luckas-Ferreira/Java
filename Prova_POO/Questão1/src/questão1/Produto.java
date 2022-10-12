@@ -1,6 +1,6 @@
-package questão1;
+package Questão1;
 
-import questão1.Utilidades;
+import Questão1.Utilidades;
 
 public class Produto {
 	// contador -> conta a quantidade de produtos no carrinho
