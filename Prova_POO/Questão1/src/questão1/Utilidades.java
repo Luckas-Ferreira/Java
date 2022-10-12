@@ -1,4 +1,4 @@
-package questão1;
+package Questão1;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
