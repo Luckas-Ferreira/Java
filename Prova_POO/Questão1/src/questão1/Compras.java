@@ -1,12 +1,12 @@
-package questão1;
+package Questão1;
 
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-import questão1.Produto;
-import questão1.Utilidades;
+import Questão1.Produto;
+import Questão1.Utilidades;
 
 
 public class Compras {
