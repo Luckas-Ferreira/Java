@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main6",
+            "request": "launch",
+            "mainClass": "Main6",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch teste6",
+            "request": "launch",
+            "mainClass": "teste6",
+            "projectName": "Java_687c25e3"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Questão5.Main",

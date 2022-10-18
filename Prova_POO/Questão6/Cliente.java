@@ -28,5 +28,5 @@ public class Cliente {
     public void setContaComDigito(int contaComDigito) {
         this.contaComDigito = contaComDigito;
     }
-    
+
 }

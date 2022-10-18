@@ -1,4 +1,4 @@
-public class Main {
+public class Main6 {
     public static void main(String[] args) {
         ContaCorrente c = new ContaCorrente("Luckas", 3333, 4442);
         ContaEspecial e = new ContaEspecial("Garry", 234, 0423213, 500);
