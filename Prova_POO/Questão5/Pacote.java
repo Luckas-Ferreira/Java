@@ -5,7 +5,7 @@ public class Pacote extends UFALBluetooth{
     
     //Sobrescreve o método nao desenvolvido na classe mãe.
     @Override
-    public void processarDados() {
+    protected void processarDados() {
         System.out.println("Processando dados via PACOTE");
     }
     

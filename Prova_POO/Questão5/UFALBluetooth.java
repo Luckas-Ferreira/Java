@@ -14,7 +14,7 @@ public abstract class UFALBluetooth {
     }
     
     //Método abstrado para ser desenvolvido dentro das classes de conexão
-    public abstract void processarDados();
+    protected abstract void processarDados();
 
     //Método usado nos dois tipos de conexão.
     public void fecharConexão() {
