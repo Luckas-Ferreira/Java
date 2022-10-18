@@ -1,6 +1,6 @@
 package Questão4;
 
-public class Cartão_de_Credito extends Metodo_de_Pagamento{
+public class Cartão_de_Credito implements Metodo_de_Pagamento{
     //Classe filha de Metodo_de_Pagamento.
     
     
