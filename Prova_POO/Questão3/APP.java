@@ -7,7 +7,7 @@ public class APP{
 
     //Construtor salva as informações de login.
     public APP(String uauario, String senha){
-        this.usuario = uauario;
+        this.usuario = usuario;
         this.senha = senha;
     }
 
